@@ -6,19 +6,19 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/kotleta/go-admin/template/types"
 
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/auth"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/modules/errors"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/constant"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/form"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/parameter"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/response"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
-	"github.com/GoAdminGroup/go-admin/template"
+	"github.com/kotleta/go-admin/context"
+	"github.com/kotleta/go-admin/modules/auth"
+	"github.com/kotleta/go-admin/modules/config"
+	"github.com/kotleta/go-admin/modules/db"
+	"github.com/kotleta/go-admin/modules/errors"
+	"github.com/kotleta/go-admin/plugins/admin/modules/constant"
+	"github.com/kotleta/go-admin/plugins/admin/modules/form"
+	"github.com/kotleta/go-admin/plugins/admin/modules/parameter"
+	"github.com/kotleta/go-admin/plugins/admin/modules/response"
+	"github.com/kotleta/go-admin/plugins/admin/modules/table"
+	"github.com/kotleta/go-admin/template"
 )
 
 type ShowFormParam struct {

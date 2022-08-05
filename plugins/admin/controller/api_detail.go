@@ -3,15 +3,15 @@ package controller
 import (
 	"fmt"
 
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/auth"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/constant"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/parameter"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/response"
-	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/GoAdminGroup/go-admin/template/types/form"
+	"github.com/kotleta/go-admin/context"
+	"github.com/kotleta/go-admin/modules/auth"
+	"github.com/kotleta/go-admin/modules/language"
+	"github.com/kotleta/go-admin/plugins/admin/modules"
+	"github.com/kotleta/go-admin/plugins/admin/modules/constant"
+	"github.com/kotleta/go-admin/plugins/admin/modules/parameter"
+	"github.com/kotleta/go-admin/plugins/admin/modules/response"
+	"github.com/kotleta/go-admin/template/types"
+	"github.com/kotleta/go-admin/template/types/form"
 )
 
 func (h *Handler) ApiDetail(ctx *context.Context) {
